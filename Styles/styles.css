@@ -11,7 +11,7 @@
         width: 1600px;
         margin: 0 auto;
         padding: 16px 55px 45px;
-        background-color: #FFFFFF;
+        background-color: var(--common-white);
         display: flex;
         align-items: center;             
         }
@@ -19,19 +19,17 @@
         margin: 0;
         padding: 0;
     }
-    .navigation {
-        font-family: var(--main-font);
-        margin-right: 331px;
-        }
-
+    
     .navigation-link {
+        font-family: var(--main-font);
         color: #212121;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 14px;
     }
     .list {
         list-style: none;
-    }
+        margin-right: 215px;
+        }
     .navigation-list {
         display: flex;
     }
@@ -48,26 +46,17 @@
         font-weight: 700;
     }
     .logo-dot {
-        
         color: #2196F3;
         }
+        .logo-dote {
+          color: #FFFFFF;
+        }
 
-    .oll-item {
-        margin-right: 8px;
-        background-color: #F5F4FA;
-    }
-    .oll-list {
-        display: flex;}
-    .oll-link {
-        color: #212121;
-        text-decoration: none;
-        font-size: 16px;
-    }    
     .contacts {
         display: flex; 
-        
-    }
+        }
     .contacts-list {
+        font-family: var(--main-font);
         margin-right: 50px;
     }
     .email {
@@ -78,3 +67,182 @@
        color: #757575;
        font-family: var(--main-font);
     }
+    .busines {
+        position: absolute;
+        width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px;
+        background-color: var(--primary-color);
+    }
+    .busines-title {
+        font-family: var(--main-font)
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        width: 696px;
+        height: 120px;
+        color: var(--common-white);
+        margin-right: 30px;
+    }
+
+    .content {
+     padding: 200px 452px 200px 452px;
+    }
+    .btn {
+        font-family: var(--main-font)
+        font-size: 16px;
+        text-transform: uppercase;
+        border: none;
+        background-color: #2196f3;
+        border-radius: 4px;
+        font-style: normal;
+        color: var(--common-white);
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        width: 200px;
+        height: 50px;
+        left: 700px;
+        top: 430px;
+        
+        }
+        .busines-bottom {
+            margin-top: 30px;
+            margin-left: 248px;
+            margin-right: 248px;
+           }
+           /*
+          .peculiarities {
+            background-color: #757575;
+            
+          }
+          .our-work {
+            font-family: var(--main-font);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            text-align: center;
+            line-height: 42px;
+            letter-spacing: 0.03em;
+            color: #212121;
+            margin-bottom: 50px;
+            }
+
+          .electronic-img {
+            margin-right: 30px;
+            text-decoration: none;
+            margin-top: 92px;
+            }
+            .work-photo {
+                width: 1170px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center; 
+            }
+            /*.our-work {
+                width: 1170px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+            }*/
+              
+              /*.electronic {
+                display: flex;
+                }*/
+
+                /*.our-work {
+                padding: 969px 215px 994px 994px;
+              }*/
+              /*.full-work {
+                background-color: var(--common-white);
+                display: flex;
+                align-items: center;
+              } 
+              */
+
+
+              /*.footer {
+                position: absolute;
+                width: 1600px;
+                height: 252px;
+                left: 0px;
+                top: 2097px;
+                background: #2F303A;
+              }*/
+
+              .content-work {
+                width: 1600px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+              
+                }
+              .our-team {
+                width: 1600px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+              }
+              .content-text {
+                padding-top: 94px;
+              }
+              .work-photo {
+                padding-bottom: 94px;
+                display: flex;
+              }
+              .electronic {
+                display: flex;
+                text-decoration: none;
+                margin-right: 30px;
+              }
+              .work-item {
+                display: flex;
+                margin-right: 30px;
+              }
+              .do-title {
+                width: 376px;
+                height: 42px;
+                left: 612px;
+                top: 969px;
+                font-family: var(--main-font);
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 42px;
+                text-align: center;
+                letter-spacing: 0.03em;
+                color: #212121;
+              }
+
+              .footer {
+                width: 1600px;
+                margin: 0 auto;
+                background-color: #2F303A;
+                height: 252px;
+              }
+              .footer-bottom {
+                margin-left: 215px;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                
+              }
+             
+          .button-list {
+            display: flex;
+          }    
+          .btn-portfolio {
+            font-family: var(--main-font)
+        font-size: 16px;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 4px;
+        font-style: normal;
+        color: #f5f4fa;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        }
+        
