@@ -7,13 +7,7 @@
     --title-size: 44px;
     --text-size: 14px;
     }
-    .body {
-      font-size: var(--text-size);
-      font-family: var(--main-font);
-      letter-spacing: 0.03em;
-      color: var(--primary-text-color);
-      background-color: var(--primary-white-color);
-}
+    
     .header {
         width: 1600px;
         margin: 0 auto;
@@ -22,6 +16,13 @@
         display: flex;
         align-items: center;             
         }
+        .body {
+          font-size: var(--text-size);
+          font-family: var(--main-font);
+          letter-spacing: 0.03em;
+          color: var(--primary-text-color);
+          background-color: var(--primary-white-color);
+    }
     * {
         margin: 0;
         padding: 0;
@@ -32,6 +33,7 @@
         color: #212121;
         text-decoration: none;
         font-size: 14px;
+        letter-spacing: 0.02em;
     }
     .list {
         list-style: none;
@@ -56,9 +58,9 @@
         color: #2196F3;
         }
         .logo-dote {
-          color: #FFFFFF;
-        }
+        color: #FFFFFF;
 
+        }
     .contacts {
         display: flex; 
         }
@@ -69,6 +71,8 @@
     .email {
         color: #2196F3;
         text-decoration: none;
+        letter-spacing: 0.02em;
+        font-family: var(--main-font);
     }
     .tell {
        color: #757575;
@@ -164,4 +168,5 @@
       line-height: 16px;
       letter-spacing: 0.02em;
       text-decoration: none;
+      font-family: var(--main-font);
      }
