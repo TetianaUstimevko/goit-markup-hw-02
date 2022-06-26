@@ -170,3 +170,13 @@
       text-decoration: none;
       font-family: var(--main-font);
      }
+     .footer-adress {
+      font-family: var(--main-font);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      color: #FFFFFF;
+      text-decoration: none;
+     }
