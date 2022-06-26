@@ -7,6 +7,13 @@
     --title-size: 44px;
     --text-size: 14px;
     }
+    .body {
+      font-size: var(--text-size);
+      font-family: var(--main-font);
+      letter-spacing: 0.03em;
+      color: var(--primary-text-color);
+      background-color: var(--primary-white-color);
+}
     .header {
         width: 1600px;
         margin: 0 auto;
