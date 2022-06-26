@@ -54,6 +54,7 @@
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
     }
+    
     .logo-dot {
         color: #2196F3;
         }
@@ -120,7 +121,7 @@
         height: 50px;
         left: 700px;
         top: 430px;}
-    .busines-bottom {
+    .busines-botton {
         margin-top: 30px;
         margin-left: 248px;
         margin-right: 248px;
@@ -142,21 +143,45 @@
              
      .button-list {
         display: flex;
-        }    
-      .btn-portfolio {
+        }  
+        
+        .btn-portfolio {
+          font-family: var(--main-font);
+          font-size: 16px;
+          text-align: center;
+          letter-spacing: 0.03em;
+          font-style: normal;
+          color: #212121;
+          font-style: normal;
+          font-weight: 500;
+          background-color: #F5F4FA;
+          border: none;
+          padding: 6px 22px;
+          border-radius: 4px;
+         }
+      /*.btn-portfolio {
         font-family: var(--main-font)
         font-size: 16px;
         text-transform: uppercase;
         border: none;
+        background-color: #f5f4fa;
         border-radius: 4px;
         font-style: normal;
         color: #f5f4fa;
         font-weight: 700;
         letter-spacing: 0.06em;
+        width: 128px;
+        height: 38px;
+        left: 576px;
+        top: 174px;
+        display: flex;
+        padding: 6px 22px;
+        }*/
+        
+        .btn-first:hover {
+          background-color: #2196F3;
         }
-        .btn-first {
-        color:
-        }
+        
      .studio {
       color: #2196F3;
      }
@@ -174,9 +199,19 @@
       font-family: var(--main-font);
       font-style: normal;
       font-weight: 400;
-      font-size: 14px;
+      font-size: var(--text-size);
       line-height: 24px;
       letter-spacing: 0.03em;
       color: #FFFFFF;
       text-decoration: none;
      }
+    .footer-contact {
+      font-family: var(--main-font);
+      font-style: normal;
+      font-weight: 400;
+      font-size: var(--text-size);
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+    }
