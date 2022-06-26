@@ -159,25 +159,7 @@
           padding: 6px 22px;
           border-radius: 4px;
          }
-      /*.btn-portfolio {
-        font-family: var(--main-font)
-        font-size: 16px;
-        text-transform: uppercase;
-        border: none;
-        background-color: #f5f4fa;
-        border-radius: 4px;
-        font-style: normal;
-        color: #f5f4fa;
-        font-weight: 700;
-        letter-spacing: 0.06em;
-        width: 128px;
-        height: 38px;
-        left: 576px;
-        top: 174px;
-        display: flex;
-        padding: 6px 22px;
-        }*/
-        
+              
         .btn-first:hover {
           background-color: #2196F3;
         }
@@ -214,4 +196,42 @@
       letter-spacing: 0.03em;
       color: rgba(255, 255, 255, 0.6);
       text-decoration: none;
+    }
+    .peculiarities-title {
+      font-family: var(--main-font);
+      font-style: normal;
+      font-weight: 700;
+      font-size: var(--text-size);
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #212121;
+    }
+    .peculiarities-text {
+      font-family: var(--main-font);
+      font-style: normal;
+      font-weight: 400;
+      font-size: var(--text-size);
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      color: #757575;
+    }
+    .work-title {
+      font-family: var(--main-font);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #212121;
+    }
+    .our-team {
+      font-family: var(--main-font);
+      font-style: normal;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #212121;
     }
