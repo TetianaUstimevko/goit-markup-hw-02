@@ -1,6 +1,23 @@
+:root {
+    --primary-color: #212121;
+    --secondary-color: #f5f4fa;
+    --accent-color: #E5E5E5;
+    --color-grey: #757575;
+    --common-white: #FFFFFF;
+    --color-blue: #2196F3;
+    --color-hero: #2F303A;
+    --color-portfolio: #F5F5F5;
+    --main-font: 'Roboto', sans-serif;
+    --title-size: 44px;
+    --text-size: 14px;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--primary-color);
+    background-color: var(--common-white);
+    font-size: var(--text-size);
 }
 
 .logo {
@@ -9,7 +26,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--color-blue);
     text-decoration: none;
 }
 
@@ -21,39 +38,37 @@ body {
     list-style: none;
 }
 .naw-link {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
-    cursor: pointer;
+    color: var(--primary-color);
     text-decoration: none;
 }
 .naw-link:hover {
-    color: #2196F3;
+    color: var(--color-blue);
 }
 .naw-link:focus {
-    color: #2196F3;
+    color: var(--color-blue);
 }
 .naw-page {
-    color: #2196F3;
+    color: var(--color-blue);
 }
 .contact-link {
-    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--color-grey);
     cursor: pointer;
     text-decoration: none;
 }
 .contact-link:hover {
-    color: #2196F3;
+    color: var(--color-blue);
 }
 .contact-link:focus {
-    color: #2196F3;
+    color: var(--color-blue);
+}
+.hero {
+    background-color: var(--color-hero);
 }
 .hero-title {
     font-weight: 900;
@@ -62,8 +77,8 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background-color: #2F303A;
+    color: var(--common-white);
+    
 }
 .hero-btn {
     /* font-family: 'Roboto';
@@ -75,8 +90,8 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: var(--common-white);
+    background-color: var(--color-blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -98,38 +113,28 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--primary-color);
 }
-.benefits-item {
+.benefits-text {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--color-grey);
 }
-.about-title {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-color);
 }
 .team {
-    background: #F5F4FA;
+    background: var(--secondary-color);
 }
-.team-title {
-    /* font-family: 'Roboto';
-    font-style: normal; */
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
+
 .team-item {
-    background: #FFFFFF;
+    background: var(--common-white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -143,42 +148,42 @@ body {
     border-radius: 0px;
     /* background: #F5F4FA; */
 }
-.team-player {
-    /* font-family: 'Roboto';
-    font-style: normal; */
+.team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 .team-content {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--color-grey);
 }
 .footer {
-    background: #2F303A;
+    background: var(--color-hero);
 }
 .logo-footer {
-    color: #FFFFFF;
+    color: var(--common-white);
 }
 .footer-link {
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--common-white);
     text-decoration: none;
-}
+    }
+.footer-contact {
+    /* font-family: 'Roboto'; */
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+        }
 .menu-btn {
     /* font-family: 'Roboto';
     font-style: normal; */
@@ -187,45 +192,45 @@ body {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-color);
     /* position: absolute; */
-    width: 112px;
-    height: 38px;
+    /* width: 112px;
+    height: 38px; */
     /* left: 726px;
     top: 174px; */
-    background: #F5F4FA;
+    background: var(--secondary-color);
     border-radius: 4px;
     cursor: pointer;
 }
 .menu-btn:hover {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--color-blue);
+    color: var(--common-white);
 }
 .menu-btn:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--color-blue);
+    color: var(--common-white);
 }
 .portfolio-list {
-    background-color: #FFFFFF;
+    background-color: var(--common-white);
 }
 .memu-portfolio {
-    background-color: #F5F5F5;;
+    background-color: var(--color-portfolio);
 }
 .portfolio-title {
     /* font-family: 'Roboto';
     font-style: normal; */
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--primary-color);
 }
 .portfolio-text {
     /* font-family: 'Roboto';
     font-style: normal; */
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--color-grey);
 }
